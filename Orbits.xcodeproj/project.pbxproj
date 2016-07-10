@@ -10,6 +10,19 @@
 		525599211D15CD5F00907719 /* Orbits.h in Headers */ = {isa = PBXBuildFile; fileRef = 525599201D15CD5F00907719 /* Orbits.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		525599281D15CD5F00907719 /* Orbits.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5255991D1D15CD5F00907719 /* Orbits.framework */; };
 		5255992D1D15CD5F00907719 /* OrbitsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255992C1D15CD5F00907719 /* OrbitsTests.swift */; };
+		525599381D15D24D00907719 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525599371D15D24D00907719 /* Body.swift */; };
+		5255993A1D15E03700907719 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525599391D15E03700907719 /* Earth.swift */; };
+		5255993B1D15E04200907719 /* Body.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525599371D15D24D00907719 /* Body.swift */; };
+		5255993C1D15E04700907719 /* Earth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525599391D15E03700907719 /* Earth.swift */; };
+		5255993E1D15E33700907719 /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255993D1D15E33700907719 /* Satellite.swift */; };
+		5255993F1D15E33700907719 /* Satellite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5255993D1D15E33700907719 /* Satellite.swift */; };
+		525599411D160A2D00907719 /* OrbitalParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525599401D160A2D00907719 /* OrbitalParameters.swift */; };
+		525599421D160A2D00907719 /* OrbitalParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525599401D160A2D00907719 /* OrbitalParameters.swift */; };
+		525599441D160FE500907719 /* OrbitalParametersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525599431D160FE500907719 /* OrbitalParametersTests.swift */; };
+		5264F3951D299AA50078C18D /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264F3941D299AA50078C18D /* Distance.swift */; };
+		5264F3961D299AA80078C18D /* Distance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264F3941D299AA50078C18D /* Distance.swift */; };
+		5264F3981D299BAF0078C18D /* Velocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264F3971D299BAF0078C18D /* Velocity.swift */; };
+		5264F3991D299BAF0078C18D /* Velocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5264F3971D299BAF0078C18D /* Velocity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +42,13 @@
 		525599271D15CD5F00907719 /* OrbitsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrbitsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5255992C1D15CD5F00907719 /* OrbitsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitsTests.swift; sourceTree = "<group>"; };
 		5255992E1D15CD5F00907719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525599371D15D24D00907719 /* Body.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Body.swift; sourceTree = "<group>"; };
+		525599391D15E03700907719 /* Earth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Earth.swift; sourceTree = "<group>"; };
+		5255993D1D15E33700907719 /* Satellite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Satellite.swift; sourceTree = "<group>"; };
+		525599401D160A2D00907719 /* OrbitalParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrbitalParameters.swift; sourceTree = "<group>"; };
+		525599431D160FE500907719 /* OrbitalParametersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrbitalParametersTests.swift; sourceTree = "<group>"; };
+		5264F3941D299AA50078C18D /* Distance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distance.swift; sourceTree = "<group>"; };
+		5264F3971D299BAF0078C18D /* Velocity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Velocity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +93,12 @@
 			children = (
 				525599201D15CD5F00907719 /* Orbits.h */,
 				525599221D15CD5F00907719 /* Info.plist */,
+				525599371D15D24D00907719 /* Body.swift */,
+				525599391D15E03700907719 /* Earth.swift */,
+				5255993D1D15E33700907719 /* Satellite.swift */,
+				525599401D160A2D00907719 /* OrbitalParameters.swift */,
+				5264F3941D299AA50078C18D /* Distance.swift */,
+				5264F3971D299BAF0078C18D /* Velocity.swift */,
 			);
 			path = Orbits;
 			sourceTree = "<group>";
@@ -82,6 +108,7 @@
 			children = (
 				5255992C1D15CD5F00907719 /* OrbitsTests.swift */,
 				5255992E1D15CD5F00907719 /* Info.plist */,
+				525599431D160FE500907719 /* OrbitalParametersTests.swift */,
 			);
 			path = OrbitsTests;
 			sourceTree = "<group>";
@@ -148,6 +175,7 @@
 				TargetAttributes = {
 					5255991C1D15CD5E00907719 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2EVR2UB76E;
 					};
 					525599261D15CD5F00907719 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -194,6 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5255993A1D15E03700907719 /* Earth.swift in Sources */,
+				5264F3981D299BAF0078C18D /* Velocity.swift in Sources */,
+				525599381D15D24D00907719 /* Body.swift in Sources */,
+				5255993E1D15E33700907719 /* Satellite.swift in Sources */,
+				525599411D160A2D00907719 /* OrbitalParameters.swift in Sources */,
+				5264F3951D299AA50078C18D /* Distance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +236,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5255992D1D15CD5F00907719 /* OrbitsTests.swift in Sources */,
+				5255993F1D15E33700907719 /* Satellite.swift in Sources */,
+				5264F3961D299AA80078C18D /* Distance.swift in Sources */,
+				525599421D160A2D00907719 /* OrbitalParameters.swift in Sources */,
+				5255993B1D15E04200907719 /* Body.swift in Sources */,
+				5264F3991D299BAF0078C18D /* Velocity.swift in Sources */,
+				5255993C1D15E04700907719 /* Earth.swift in Sources */,
+				525599441D160FE500907719 /* OrbitalParametersTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +351,9 @@
 		525599321D15CD5F00907719 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -319,13 +363,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.john-ahrens.Orbits";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		525599331D15CD5F00907719 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -335,6 +384,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.john-ahrens.Orbits";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -378,6 +428,7 @@
 				525599331D15CD5F00907719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525599341D15CD5F00907719 /* Build configuration list for PBXNativeTarget "OrbitsTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +437,7 @@
 				525599361D15CD5F00907719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
