@@ -10,9 +10,9 @@ import Foundation
 
 class Velocity
 {
-    var horizontal: Double // Speed normal to the radius
-    var vertical: Double // Speed tangential to the radius
-    var speed: Double // Total speed
+    var horizontal: Double // Speed normal to the radius, in meters/sec
+    var vertical: Double // Speed tangential to the radius, in meters/sec
+    var speed: Double // Total speed, in meters/sec
     
     init(withHorizontal: Double, vertical: Double)
     {
