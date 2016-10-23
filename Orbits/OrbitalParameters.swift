@@ -22,7 +22,7 @@ class OrbitalParameters
         self.satellite = satellite
     }
     
-    func computePeriapsisAndApoapsisWith(radius: Distance,
+    func computePeriapsisAndApoapsisWith(_ radius: Distance,
                                        velocity: Velocity,
                                          zenith: Double) -> (periapsis: Double, apoapsis: Double)
     {

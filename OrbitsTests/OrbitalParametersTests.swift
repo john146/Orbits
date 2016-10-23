@@ -20,7 +20,7 @@ class OrbitalParametersTests: XCTestCase {
         super.tearDown()
     }
     
-    func computeCWith(gm: Double, radius: Double, velocity: Double) -> Double
+    func computeCWith(_ gm: Double, radius: Double, velocity: Double) -> Double
     {
         let c = (2 * gm) / (radius * velocity * velocity)
         return c
@@ -58,7 +58,7 @@ class OrbitalParametersTests: XCTestCase {
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
